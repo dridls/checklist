@@ -1,0 +1,62 @@
+/* font-family: 'Architects Daughter', cursive;
+font-family: 'Quantico', sans-serif; */
+
+:root {
+  --russian-violet: #301a4bff;
+  --maximum-blue-purple: #9f9fedff;
+  --vermilion: #e03616ff;
+  --unbleached-silk: #ffd9ceff;
+  --snow: #fcf7f8ff;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-family: "Quantico", Verdana, Geneva, Tahoma, sans-serif;
+  color: var(--russian-violet);
+}
+.add-btn {
+  border-radius: 10px;
+  background-color: var(--russian-violet);
+  color: violet;
+}
+
+.input {
+  background-color: white;
+  color: violet;
+  font-family: "Architects Daughter", cursive;
+}
+.tasks-list {
+  margin: 0;
+  padding: 0;
+}
+.task {
+}
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  background-color: violet;
+  border-radius: 10px;
+  font-family: "Architects Daughter", cursive;
+  list-style: none;
+  margin: 10px;
+  padding: 10px;
+}
+.check-btn {
+  background-color: peru;
+  border-radius: 10px;
+}
+delete-btn {
+  background-color: brown;
+  border-radius: 10px;
+}
+.tasks-container {
+  margin: 0;
+}
