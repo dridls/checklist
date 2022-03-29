@@ -27,7 +27,7 @@ function addDeleteBtn() {
   deleteBtn.className = "btn-delete";
   deleteBtn.addEventListener("click", (e) => {
     const item = e.target.parentElement;
-    ul.removeChild(item);
+    ul.removeChild(this);
     const lists = document.querySelectorAll("li");
     if (lists.length === 0) {
       empty.style.display = "block";

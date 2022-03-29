@@ -17,19 +17,31 @@ font-family: 'Quantico', sans-serif; */
   margin: 0;
   padding: 0;
 }
+.box {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  width: 400px;
+  height: 100vh;
+  background-color: var(--unbleached-silk);
+}
 h1 {
   font-family: "Quantico", Verdana, Geneva, Tahoma, sans-serif;
   color: var(--russian-violet);
+  font-size: 45px;
+  margin: 30px;
 }
 .add-btn {
   border-radius: 10px;
   background-color: var(--russian-violet);
-  color: violet;
+  color: var(--unbleached-silk);
+  font-weight: 200;
 }
 
 .input {
-  background-color: white;
-  color: violet;
+  background-color: var(--snow);
+  color: var(--maximum-blue-purple);
   font-family: "Architects Daughter", cursive;
 }
 .tasks-list {
@@ -41,22 +53,55 @@ h1 {
 .list-item {
   display: flex;
   justify-content: space-between;
-  color: white;
-  background-color: violet;
+  align-items: center;
+  color: var(--snow);
+  background-color: var(--maximum-blue-purple);
+  width: 300px;
+  height: 50px;
   border-radius: 10px;
   font-family: "Architects Daughter", cursive;
   list-style: none;
   margin: 10px;
   padding: 10px;
 }
-.check-btn {
-  background-color: peru;
-  border-radius: 10px;
+.check-list {
+  color: var(--vermilion);
+  text-decoration: line-through;
+  font-style: italic;
 }
-delete-btn {
-  background-color: brown;
+.check-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--russian-violet);
   border-radius: 10px;
+  color: var(--unbleached-silk);
+  margin: 0 2px;
+  height: 30px;
+  width: 30px;
+}
+.delete-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--russian-violet);
+  border-radius: 10px;
+  color: var(--unbleached-silk);
+  margin: 0 2px;
+  height: 30px;
+  width: 30px;
+}
+.check-list-btn {
+  color: var(--vermilion);
 }
 .tasks-container {
   margin: 0;
+}
+
+.buttons {
+  display: flex;
+}
+
+.fa-solid.fa-square-check.fa-solid.fa-trash-can {
+  color: var(--maximum-blue-purple);
 }
