@@ -9,6 +9,9 @@ const ul = document.querySelector(".tasks-list");
 function addItem(e) {
   e.preventDefault(); //Prevent form from submiting
   const text = input.value;
+
+  if (text === undefined || text === "") return;
+
   const taskDiv = document.createElement("div");
   const buttons = document.createElement("div");
 

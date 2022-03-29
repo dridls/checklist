@@ -7,6 +7,12 @@ font-family: 'Quantico', sans-serif; */
   --vermilion: #e03616ff;
   --unbleached-silk: #ffd9ceff;
   --snow: #fcf7f8ff;
+  /* BYOMA PALETE */
+  --BYOMA-1: #c2e5f2;
+  --BYOMA-2: #f2e399;
+  --BYOMA-3: #f2913d;
+  --BYOMA-4: #f25c05;
+  --BYOMA-5: #f24405;
 }
 
 .container {
@@ -24,25 +30,25 @@ font-family: 'Quantico', sans-serif; */
   align-items: center;
   width: 400px;
   height: 100vh;
-  background-color: var(--unbleached-silk);
+  background-color: var(--BYOMA-1);
 }
 h1 {
   font-family: "Quantico", Verdana, Geneva, Tahoma, sans-serif;
-  color: var(--russian-violet);
+  color: var(--BYOMA-4);
   font-size: 45px;
   margin: 30px;
 }
 .add-btn {
   border-radius: 10px;
-  background-color: var(--russian-violet);
-  color: var(--unbleached-silk);
+  background-color: var(--BYOMA-3);
+  color: var(--BYOMA-2);
   font-weight: 200;
 }
 
 .input {
   background-color: var(--snow);
-  color: var(--maximum-blue-purple);
-  font-family: "Architects Daughter", cursive;
+  color: var(--BYOMA-3);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .tasks-list {
   margin: 0;
@@ -54,18 +60,18 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: var(--snow);
-  background-color: var(--maximum-blue-purple);
+  color: var(--BYOMA-3);
+  background-color: var(--BYOMA-2);
   width: 300px;
   height: 50px;
   border-radius: 10px;
-  font-family: "Architects Daughter", cursive;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   list-style: none;
   margin: 10px;
   padding: 10px;
 }
 .check-list {
-  color: var(--vermilion);
+  color: var(--BYOMA-4);
   text-decoration: line-through;
   font-style: italic;
 }
@@ -73,9 +79,9 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--russian-violet);
+  background-color: var(--BYOMA-3);
   border-radius: 10px;
-  color: var(--unbleached-silk);
+  color: var(--BYOMA-2);
   margin: 0 2px;
   height: 30px;
   width: 30px;
@@ -84,15 +90,15 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--russian-violet);
+  background-color: var(--BYOMA-3);
   border-radius: 10px;
-  color: var(--unbleached-silk);
+  color: var(--BYOMA-2);
   margin: 0 2px;
   height: 30px;
   width: 30px;
 }
 .check-list-btn {
-  color: var(--vermilion);
+  color: var(--BYOMA-4);
 }
 .tasks-container {
   margin: 0;
